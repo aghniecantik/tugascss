@@ -1,0 +1,32 @@
+/* latihan css */
+
+a:link {
+  color: midnightblue;
+}
+a:visited {
+  color: greenyellow;
+}
+a:hover {
+  color: red;
+  font-size: 20px;
+}
+a:active {
+  color: deeppink;
+}
+.button {
+  border-radius: 5px;
+  border: none;
+  background-color: deeppink;
+  color: #ffff;
+  text-align: center;
+  font-size: 28px;
+}
+
+.button:hover {
+  background-color: deepskyblue;
+}
+
+.button:active {
+  background-color: darkblue;
+  box-shadow: 0 5px #666;
+}
